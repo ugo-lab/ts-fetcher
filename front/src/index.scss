@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'poppins', sans-serif;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  .btn-list {
+    margin-bottom: 50px;
+    button {
+      margin: 0 10px;
+      padding: 3px 5px;
+      cursor: pointer;
+    }
+  }
+  .content {
+    text-align: center;
+  }
+  .helper {
+    opacity: 0.3;
+  }
+  .error {
+    background: rgba(255, 0, 0, 0.3);
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.5px solid red;
+  }
+}
